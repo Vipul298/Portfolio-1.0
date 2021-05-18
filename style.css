@@ -1,0 +1,64 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+
+body{
+    background-color: rgb(0, 255, 255);
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position:absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(100%,100%);
+    opacity: 0;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
